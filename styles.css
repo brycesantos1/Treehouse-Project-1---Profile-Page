@@ -69,16 +69,19 @@ header {
 header {
   line-height: 1.5;
 }
-header .profile-image {
+header .profile-image{
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 30%;
   border: 3px solid white;
   transition: all .5s;
+  opacity: .65;
 }
+
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
+  opacity: 1;
 }
 .tag {
   background-color: #efefef;
